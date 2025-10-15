@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family:'Noto Sans';
-    src: url('Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+    src: url('NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
 }
 
 html, body {
