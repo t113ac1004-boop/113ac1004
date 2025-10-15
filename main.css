@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #778A50;
+    --background-color: #EDF2C5;
+    --content_text-color: #7D7D7D;
+    --content_background-color: #F7FBDA;
+}
+@font-face {
+    font-family:'Noto Sans';
+    src: url('Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+html, body {
+    background-color: var(--background-color);
+    margin: 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding:36px 160px  0 158px;
+    margin-bottom: 8px;
+}
+.Head1 {
+    font-family: 'Noto Sans';
+    font-size: 44px;
+    font-weight: 900;
+    color: var(--primary-color);
+    Line-height: normal;
+}
+.Head2 {
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--background-color);
+    Line-height: 24px;   
+}
+
+.Text1{
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-color);
+    Line-height: normal
+
+}
+.Text2{
+    font-family: 'Noto Sans';
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--content_text-color);
+    Line-height: normal
+}
+.btn_group {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.btn_box {
+    padding: 4px 8px;
+    border: 1px solid var(--primary-color);
+}
+
+.main{
+    padding: 0 160px 117px 160px;
+}
+.nav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--primary-color);
+    margin-bottom: 16px;
+    padding: 0 30px;
+    border-radius: 3px;
+
+}
+.nav_list {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    padding: 0;
+}
+
+.img_main_pumpkin {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box_info{
+    width: 100%;
+    display: flex;
+    margin-top: 32px;
+    gap: 64px;
+}
+.box_info_item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.box_info_title{
+    background-color: var(--primary-color);
+    padding: 10px 0  11px 30px; 
+    border-radius: 3px;
+}
+.box_vegetables_content{
+    display: flex;
+    gap: 16px;
+}
+
+.img_vegetables_pepper,
+.img_vegetables_carrot,
+.img_vegetables_corn{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box_contact_text{
+    background-color: var(--content_background-color);
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 16px;
+}
+
+.box_contact_info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 9px;
+    border-top: 1px solid var(--content_text-color);
+    padding-bottom: 4px;
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 0;
+}
+.footer_text{
+    color: var(--background-color);
+}
